@@ -42,7 +42,8 @@ TARGET_CORE_SRC = \
 	%D%/target_request.c \
 	%D%/testee.c \
 	%D%/semihosting_common.c \
-	%D%/smp.c
+	%D%/smp.c \
++	%D%/rtt.c
 
 ARMV4_5_SRC = \
 	%D%/armv4_5.c \
@@ -217,7 +218,8 @@ INTEL_IA32_SRC = \
 	%D%/stm8.h \
 	%D%/lakemont.h \
 	%D%/x86_32_common.h \
-	%D%/arm_cti.h
+	%D%/arm_cti.h \
+	%D%/rtt.h
 
 include %D%/openrisc/Makefile.am
 include %D%/riscv/Makefile.am
